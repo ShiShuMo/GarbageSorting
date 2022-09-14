@@ -19,7 +19,7 @@ jobs:
           java-version: 1.8
 
       - name: Grant rights
-        run: chmod +x build.gradle
+        run: chmod +x build.gradle && chmod +x gradlew
 
       - name: Build with Gradle
         id: build
